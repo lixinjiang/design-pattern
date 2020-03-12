@@ -1,4 +1,4 @@
-package cn.lixinjiang.bridge;
+package cn.lixinjiang.bridge.selection1;
 
 /**
  * @Author lxj

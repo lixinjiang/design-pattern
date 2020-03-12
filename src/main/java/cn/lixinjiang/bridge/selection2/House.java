@@ -1,9 +1,9 @@
-package cn.lixinjiang.bridge;
+package cn.lixinjiang.bridge.selection2;
 
 /**
  * @Author lxj
  */
-public class House extends Product{
+public class House extends Product {
 
     @Override
     public void beProduct() {

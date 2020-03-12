@@ -1,6 +1,4 @@
-package cn.lixinjiang.bridge;
-
-import com.sun.scenario.effect.Crop;
+package cn.lixinjiang.bridge.selection1;
 
 /**
  * @Author lxj

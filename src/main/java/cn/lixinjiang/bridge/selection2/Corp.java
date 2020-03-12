@@ -3,6 +3,15 @@ package cn.lixinjiang.bridge.selection2;
 /**
  * @Author lxj
  */
-public class Corp {
+public abstract class Corp {
+    private Product product;
 
+    public Corp(Product product) {
+        this.product = product;
+    }
+
+    public void makeMoney() {
+        this.product.beProduct();
+        this.product.beSelled();
+    }
 }
