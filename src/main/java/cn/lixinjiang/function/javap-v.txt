@@ -1,0 +1,217 @@
+Classfile /Users/dxm/Documents/工作/gitlabworkspace/design-pattern/src/main/java/cn/lixinjiang/function/MagicConsumer.class
+  Last modified 2020-4-3; size 1627 bytes
+  MD5 checksum f1ce5cff6890bb93a5ed09a6c526ddf4
+  Compiled from "MagicConsumer.java"
+public class cn.lixinjiang.function.MagicConsumer
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Methodref          #17.#29        // java/lang/Object."<init>":()V
+   #2 = Class              #30            // cn/lixinjiang/function/MagicConsumer$1
+   #3 = Methodref          #2.#29         // cn/lixinjiang/function/MagicConsumer$1."<init>":()V
+   #4 = InvokeDynamic      #0:#36         // #0:accept:()Ljava/util/function/Consumer;
+   #5 = Fieldref           #37.#38        // java/lang/System.out:Ljava/io/PrintStream;
+   #6 = Methodref          #17.#39        // java/lang/Object.getClass:()Ljava/lang/Class;
+   #7 = InvokeDynamic      #1:#41         // #1:accept:(Ljava/io/PrintStream;)Ljava/util/function/Consumer;
+   #8 = String             #42            // ----------------------------------
+   #9 = Methodref          #43.#44        // java/io/PrintStream.println:(Ljava/lang/String;)V
+  #10 = Class              #45            // java/lang/String
+  #11 = String             #46            // aaa
+  #12 = String             #47            // bbb
+  #13 = String             #48            // ccc
+  #14 = InterfaceMethodref #49.#50        // java/util/stream/Stream.of:([Ljava/lang/Object;)Ljava/util/stream/Stream;
+  #15 = InterfaceMethodref #49.#51        // java/util/stream/Stream.forEach:(Ljava/util/function/Consumer;)V
+  #16 = Class              #52            // cn/lixinjiang/function/MagicConsumer
+  #17 = Class              #53            // java/lang/Object
+  #18 = Utf8               InnerClasses
+  #19 = Utf8               <init>
+  #20 = Utf8               ()V
+  #21 = Utf8               Code
+  #22 = Utf8               LineNumberTable
+  #23 = Utf8               main
+  #24 = Utf8               ([Ljava/lang/String;)V
+  #25 = Utf8               lambda$main$0
+  #26 = Utf8               (Ljava/lang/String;)V
+  #27 = Utf8               SourceFile
+  #28 = Utf8               MagicConsumer.java
+  #29 = NameAndType        #19:#20        // "<init>":()V
+  #30 = Utf8               cn/lixinjiang/function/MagicConsumer$1
+  #31 = Utf8               BootstrapMethods
+  #32 = MethodHandle       #6:#54         // invokestatic java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+  #33 = MethodType         #55            //  (Ljava/lang/Object;)V
+  #34 = MethodHandle       #6:#56         // invokestatic cn/lixinjiang/function/MagicConsumer.lambda$main$0:(Ljava/lang/String;)V
+  #35 = MethodType         #26            //  (Ljava/lang/String;)V
+  #36 = NameAndType        #57:#58        // accept:()Ljava/util/function/Consumer;
+  #37 = Class              #59            // java/lang/System
+  #38 = NameAndType        #60:#61        // out:Ljava/io/PrintStream;
+  #39 = NameAndType        #62:#63        // getClass:()Ljava/lang/Class;
+  #40 = MethodHandle       #5:#9          // invokevirtual java/io/PrintStream.println:(Ljava/lang/String;)V
+  #41 = NameAndType        #57:#64        // accept:(Ljava/io/PrintStream;)Ljava/util/function/Consumer;
+  #42 = Utf8               ----------------------------------
+  #43 = Class              #65            // java/io/PrintStream
+  #44 = NameAndType        #66:#26        // println:(Ljava/lang/String;)V
+  #45 = Utf8               java/lang/String
+  #46 = Utf8               aaa
+  #47 = Utf8               bbb
+  #48 = Utf8               ccc
+  #49 = Class              #67            // java/util/stream/Stream
+  #50 = NameAndType        #68:#69        // of:([Ljava/lang/Object;)Ljava/util/stream/Stream;
+  #51 = NameAndType        #70:#71        // forEach:(Ljava/util/function/Consumer;)V
+  #52 = Utf8               cn/lixinjiang/function/MagicConsumer
+  #53 = Utf8               java/lang/Object
+  #54 = Methodref          #72.#73        // java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+  #55 = Utf8               (Ljava/lang/Object;)V
+  #56 = Methodref          #16.#74        // cn/lixinjiang/function/MagicConsumer.lambda$main$0:(Ljava/lang/String;)V
+  #57 = Utf8               accept
+  #58 = Utf8               ()Ljava/util/function/Consumer;
+  #59 = Utf8               java/lang/System
+  #60 = Utf8               out
+  #61 = Utf8               Ljava/io/PrintStream;
+  #62 = Utf8               getClass
+  #63 = Utf8               ()Ljava/lang/Class;
+  #64 = Utf8               (Ljava/io/PrintStream;)Ljava/util/function/Consumer;
+  #65 = Utf8               java/io/PrintStream
+  #66 = Utf8               println
+  #67 = Utf8               java/util/stream/Stream
+  #68 = Utf8               of
+  #69 = Utf8               ([Ljava/lang/Object;)Ljava/util/stream/Stream;
+  #70 = Utf8               forEach
+  #71 = Utf8               (Ljava/util/function/Consumer;)V
+  #72 = Class              #75            // java/lang/invoke/LambdaMetafactory
+  #73 = NameAndType        #76:#79        // metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+  #74 = NameAndType        #25:#26        // lambda$main$0:(Ljava/lang/String;)V
+  #75 = Utf8               java/lang/invoke/LambdaMetafactory
+  #76 = Utf8               metafactory
+  #77 = Class              #81            // java/lang/invoke/MethodHandles$Lookup
+  #78 = Utf8               Lookup
+  #79 = Utf8               (Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+  #80 = Class              #82            // java/lang/invoke/MethodHandles
+  #81 = Utf8               java/lang/invoke/MethodHandles$Lookup
+  #82 = Utf8               java/lang/invoke/MethodHandles
+{
+  public cn.lixinjiang.function.MagicConsumer();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: return
+      LineNumberTable:
+        line 9: 0
+
+  public static void main(java.lang.String[]);
+    descriptor: ([Ljava/lang/String;)V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=4, locals=5, args_size=1
+         0: new           #2                  // class cn/lixinjiang/function/MagicConsumer$1
+         3: dup
+         4: invokespecial #3                  // Method cn/lixinjiang/function/MagicConsumer$1."<init>":()V
+         7: astore_1
+         8: invokedynamic #4,  0              // InvokeDynamic #0:accept:()Ljava/util/function/Consumer;
+        13: astore_2
+        14: getstatic     #5                  // Field java/lang/System.out:Ljava/io/PrintStream;
+        17: dup
+        18: invokevirtual #6                  // Method java/lang/Object.getClass:()Ljava/lang/Class;
+        21: pop
+        22: invokedynamic #7,  0              // InvokeDynamic #1:accept:(Ljava/io/PrintStream;)Ljava/util/function/Consumer;
+        27: astore_3
+        28: getstatic     #5                  // Field java/lang/System.out:Ljava/io/PrintStream;
+        31: ldc           #8                  // String ----------------------------------
+        33: invokevirtual #9                  // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+        36: iconst_3
+        37: anewarray     #10                 // class java/lang/String
+        40: dup
+        41: iconst_0
+        42: ldc           #11                 // String aaa
+        44: aastore
+        45: dup
+        46: iconst_1
+        47: ldc           #12                 // String bbb
+        49: aastore
+        50: dup
+        51: iconst_2
+        52: ldc           #13                 // String ccc
+        54: aastore
+        55: invokestatic  #14                 // InterfaceMethod java/util/stream/Stream.of:([Ljava/lang/Object;)Ljava/util/stream/Stream;
+        58: astore        4
+        60: aload         4
+        62: aload_1
+        63: invokeinterface #15,  2           // InterfaceMethod java/util/stream/Stream.forEach:(Ljava/util/function/Consumer;)V
+        68: getstatic     #5                  // Field java/lang/System.out:Ljava/io/PrintStream;
+        71: ldc           #8                  // String ----------------------------------
+        73: invokevirtual #9                  // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+        76: iconst_3
+        77: anewarray     #10                 // class java/lang/String
+        80: dup
+        81: iconst_0
+        82: ldc           #11                 // String aaa
+        84: aastore
+        85: dup
+        86: iconst_1
+        87: ldc           #12                 // String bbb
+        89: aastore
+        90: dup
+        91: iconst_2
+        92: ldc           #13                 // String ccc
+        94: aastore
+        95: invokestatic  #14                 // InterfaceMethod java/util/stream/Stream.of:([Ljava/lang/Object;)Ljava/util/stream/Stream;
+        98: astore        4
+       100: aload         4
+       102: aload_2
+       103: invokeinterface #15,  2           // InterfaceMethod java/util/stream/Stream.forEach:(Ljava/util/function/Consumer;)V
+       108: getstatic     #5                  // Field java/lang/System.out:Ljava/io/PrintStream;
+       111: ldc           #8                  // String ----------------------------------
+       113: invokevirtual #9                  // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       116: iconst_3
+       117: anewarray     #10                 // class java/lang/String
+       120: dup
+       121: iconst_0
+       122: ldc           #11                 // String aaa
+       124: aastore
+       125: dup
+       126: iconst_1
+       127: ldc           #12                 // String bbb
+       129: aastore
+       130: dup
+       131: iconst_2
+       132: ldc           #13                 // String ccc
+       134: aastore
+       135: invokestatic  #14                 // InterfaceMethod java/util/stream/Stream.of:([Ljava/lang/Object;)Ljava/util/stream/Stream;
+       138: astore        4
+       140: aload         4
+       142: aload_3
+       143: invokeinterface #15,  2           // InterfaceMethod java/util/stream/Stream.forEach:(Ljava/util/function/Consumer;)V
+       148: return
+      LineNumberTable:
+        line 13: 0
+        line 20: 8
+        line 22: 14
+        line 24: 28
+        line 25: 36
+        line 26: 60
+        line 27: 68
+        line 28: 76
+        line 29: 100
+        line 30: 108
+        line 31: 116
+        line 32: 140
+        line 33: 148
+}
+SourceFile: "MagicConsumer.java"
+InnerClasses:
+     static #2; //class cn/lixinjiang/function/MagicConsumer$1
+     public static final #78= #77 of #80; //Lookup=class java/lang/invoke/MethodHandles$Lookup of class java/lang/invoke/MethodHandles
+BootstrapMethods:
+  0: #32 invokestatic java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+    Method arguments:
+      #33 (Ljava/lang/Object;)V
+      #34 invokestatic cn/lixinjiang/function/MagicConsumer.lambda$main$0:(Ljava/lang/String;)V
+      #35 (Ljava/lang/String;)V
+  1: #32 invokestatic java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+    Method arguments:
+      #33 (Ljava/lang/Object;)V
+      #40 invokevirtual java/io/PrintStream.println:(Ljava/lang/String;)V
+      #35 (Ljava/lang/String;)V
