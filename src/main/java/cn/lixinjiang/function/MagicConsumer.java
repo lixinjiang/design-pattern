@@ -4,6 +4,8 @@ import java.util.function.Consumer;
 import java.util.stream.Stream;
 
 /**
+ * 消耗型接口
+ *
  * @Author lxj
  */
 public class MagicConsumer {
